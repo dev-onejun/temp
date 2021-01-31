@@ -1,5 +1,5 @@
 # Aaaaiiiiiee.github.io
-Introduce([link](./Aaaaiiiiiee))
+Introduce([link](/Aaaaiiiiiee))
 ## Directory List
-- [Self-Study](Self-Study)
-- [BeHuman-Web](BeHuman-Web)
+- [Self-Study](/Self-Study)
+- [BeHuman-Web](/BeHuman-Web)
