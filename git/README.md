@@ -14,3 +14,7 @@ Furthermore, you can PUSH after upward things.
 
 3) delete
 `git branch -d ${branch_name}`
+
+## Connect by SSH with GITHUB
+### How
+https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/
