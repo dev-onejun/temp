@@ -1,9 +1,6 @@
-# Aaaaiiiiiee.github.io
-Introduce([link](/Aaaaiiiiiee))
+# dev-onejun.github.io
+Introduce([link](/dev-onejun))
 ## Directory List
-- [Self-Study](/Self-Study)
-- [BeHuman-Web](/BeHuman-Web)
-- [Family_Blog](/family_blog)
 
 ## about vim settings
 * [how to set vim for nodejs developer](https://www.google.com/search?q=how+to+setting+vim+for+nodejs+developer&oq=how+to+setting+vim+for+nodejs+developer&aqs=chrome..69i57.5175j0j9&sourceid=chrome&ie=UTF-8)
