@@ -5,11 +5,11 @@
 2) select
 `git checkout ${branch_name}`
 
-#### if you want ADD,COMMIT,PUSH for this branch
+* if you want ADD,COMMIT,PUSH for this branch
 every thing is same.
-#### if you want merge
-`git checkout main(master)`
-`git merge ${branch_name}`
+* if you want merge
+`git checkout main(master)`<br/>
+`git merge ${branch_name}`<br/>
 Furthermore, you can PUSH after upward things.
 
 3) delete
