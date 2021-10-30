@@ -3,8 +3,8 @@
 1) add
 `$ sudo adduser <username>`
 
-* To give sudo privilge
-- `$ sudo usermod -aG sudo <username>`
+#### To give sudo privilge
+* `$ sudo usermod -aG sudo <username>`
 
 2) delete
 `$ sudo deluser <username>`
