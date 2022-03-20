@@ -6,6 +6,10 @@
 * CUDA
 * https://blogs.nvidia.co.kr/2018/01/16/cuda-toolkit/
 
+### How to build clusters with MicroK8s
+#### Reference
+* https://ubuntu.com/tutorials/getting-started-with-kubernetes-ha?_ga=2.224499858.961657924.1647747222-980843396.1647747222#1-overview
+
 ### How to install MySQL on docker
 #### Prerequisites
 * docker, mysql-client
