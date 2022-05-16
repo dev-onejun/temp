@@ -18,3 +18,6 @@ Furthermore, you can PUSH after upward things.
 ## Connect by SSH with GITHUB
 ### How
 https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/
+
+## undo commit
+https://www.lainyzine.com/ko/article/git-reset-and-git-revert-and-git-commit-amend/
