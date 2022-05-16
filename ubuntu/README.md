@@ -23,3 +23,8 @@
 ### About LVM and how to manage ...
 * [About LVM](https://www.digitalocean.com/community/tutorials/an-introduction-to-lvm-concepts-terminology-and-operations)
 * [how to use LVM to manage storage device](https://www.digitalocean.com/community/tutorials/how-to-use-lvm-to-manage-storage-devices-on-ubuntu-18-04)
+
+## managing packages using apt
+``` bash
+$ ls /etc/apt/sources.list.d/
+```
