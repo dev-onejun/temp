@@ -16,3 +16,10 @@
 ## Connect AirPods
 ### Enabling Airpods as earbuds and microphone
 * https://reckoning.dev/blog/airpods-pro-ubuntu/
+
+## LVM (file system)
+### how to resize the default LVM volume
+* https://slice2.com/2020/12/05/howto-easily-resize-the-default-lvm-volume-on-ubuntu-18-04/
+### About LVM and how to manage ...
+* [About LVM](https://www.digitalocean.com/community/tutorials/an-introduction-to-lvm-concepts-terminology-and-operations)
+* [how to use LVM to manage storage device](https://www.digitalocean.com/community/tutorials/how-to-use-lvm-to-manage-storage-devices-on-ubuntu-18-04)
