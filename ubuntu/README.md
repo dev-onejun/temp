@@ -28,3 +28,6 @@
 ``` bash
 $ ls /etc/apt/sources.list.d/
 ```
+``` bash
+$ sudo add-apt-repository --remove ppa:whatever/ppa
+```
