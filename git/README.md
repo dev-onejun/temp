@@ -21,3 +21,6 @@ https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/
 
 ## undo commit
 https://www.lainyzine.com/ko/article/git-reset-and-git-revert-and-git-commit-amend/
+
+## About `git rm`
+https://confluence.curvc.com/display/public/ASD/git+rm
