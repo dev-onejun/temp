@@ -31,3 +31,6 @@ $ ls /etc/apt/sources.list.d/
 ``` bash
 $ sudo add-apt-repository --remove ppa:whatever/ppa
 ```
+
+## setting Firewall with ufw
+* https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04
