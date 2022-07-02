@@ -7,6 +7,10 @@
 
 #### To give sudo privilge
 * `$ sudo usermod -aG sudo <username>`
+* run a command with sudo privileges without entering the password
+    - `$ EDITOR=vim visudo`
+    - adding a line below to end of file. replace username with yours
+        - `username ALL=(ALL) NOPASSWD: ALL`
 
 2) delete
 `$ sudo deluser <username>`
