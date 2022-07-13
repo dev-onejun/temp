@@ -36,5 +36,8 @@ $ ls /etc/apt/sources.list.d/
 $ sudo add-apt-repository --remove ppa:whatever/ppa
 ```
 
+## apt-key
+* apt-key is deprecated .. so if you got warning about it, see [here](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt-key.8.html#deprecation)
+
 ## setting Firewall with ufw
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04
