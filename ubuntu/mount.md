@@ -1,4 +1,8 @@
-# This is how to mount/unmount in Ubuntu to use USB, CD/DVD ROM, etc ...
+# mount
+* You can configure mounting automatically in file `/etc/fstab`
+* in the file, you can see what to do ... but the example is like `/dev/sdb2  /mnt/data  ext4 defaults  0  0`
+
+## How to mount/unmount in Ubuntu to use USB, CD/DVD ROM, etc ...
 
 ```
 This article is referred to blog https://url.kr/v6a2tg
@@ -6,7 +10,7 @@ This article is referred to blog https://url.kr/v6a2tg
 OR you can search in GOOGLE, "how to access usb in ubuntu"
 ```
 
-## Method to use your USB
+### Method to use your USB
 1. Connect USB for Ubuntu PC
 
 2. Check USB PATH and TYPE
@@ -30,7 +34,7 @@ OR you can search in GOOGLE, "how to access usb in ubuntu"
 	* `df -h
 
 
-## After your work DONE
+### After your work DONE
 5. IMPORTANT STEP. Unmount your USB, before you pull out it.
 	* `sudo eject /home/onejun/mount/usb`	OR
 	* `sudo eject /dev/sda1` ...
