@@ -39,5 +39,37 @@ $ sudo add-apt-repository --remove ppa:whatever/ppa
 ## apt-key
 * apt-key is deprecated .. so if you got warning about it, see [here](https://manpages.ubuntu.com/manpages/jammy/en/man8/apt-key.8.html#deprecation)
 
+
 ## setting Firewall with ufw
 * https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-18-04
+
+
+## When network does not work ..
+<p>I've experienced the Internet connection wasn't established after inserting gpu on my computer.
+The reason was the settings about PCI devices. My LAN Card and GPU used PCI bus.
+but when I used before, I didn't use GPU. So my computer set LAN Card using PCI bus, named enp2s0.
+However, after setting gpu, I don't know why exactly, but LAN Card got enp3s0. I might think the gpu get second PCI device name.
+Long prefaces. I solved problem using below try.
+</p>
+
+[Reference](https://askubuntu.com/questions/1362467/cant-enable-enp3s0-ethernet-interface-and-ethernet-wired-simply-does-not-work)
+1) `sudo lshw -C network`
+    - outputs are the LAN Cards that computer can use.
+    - I had gotten `*-network DISABLED` about my mainboard LAN card.
+2) `sudo ip link set enp3s0 up`
+3) change PCI devices name on `/etc/netplan/*.yaml`
+    - the exact file name is different. find your mainboard(or something you want) LAN card setting.
+    - example
+    ``` yaml
+    network:
+        version: 2
+        renderer: NetworkManager
+        ethernets:
+            enp3s0:
+                dhcp4: true
+    ```
+4) sudo netplan apply
+5) sudo systemctl restart NetworkManager.service
+
+* and I don't use [this](https://krujy.tistory.com/13), but it could be useful maybe..
+
