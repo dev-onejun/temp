@@ -73,3 +73,10 @@ Long prefaces. I solved problem using below try.
 
 * and I don't use [this](https://krujy.tistory.com/13), but it could be useful maybe..
 
+
+## Setting the default editor for all programs
+``` bash
+$ export VISUAL=vim
+$ export EDITOR='$VISUAL'
+```
+* Setting both is not necessarily needed, but some programs may be required.
