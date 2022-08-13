@@ -24,3 +24,7 @@ https://www.lainyzine.com/ko/article/git-reset-and-git-revert-and-git-commit-ame
 
 ## About `git rm`
 https://confluence.curvc.com/display/public/ASD/git+rm
+
+## Setting the default editor for Git
+1) `$ git config --global core.editor 'vim'`
+2) `$ export GIT_EDITOR=vim`
